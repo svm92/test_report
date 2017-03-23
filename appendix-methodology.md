@@ -1,6 +1,6 @@
 # Appendix: Methodology
 
-It should be noted that this test was performed in an automated manner using tools such as Arachni or
+It should be noted that this test was performed in an automated manner using tools such as
 
 OWASP ZAP, with no direct human intervention. This makes the test non-exhaustive, and it should be assumed
 
