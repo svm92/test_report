@@ -1,4 +1,4 @@
-## Recommendations
+# Recommendations
 
 Given the vulnerabilities found, some possible recommendations include:
 

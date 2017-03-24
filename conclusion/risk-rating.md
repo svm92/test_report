@@ -1,4 +1,4 @@
-## Risk Rating
+# Risk Rating
 
 Vulnerabilities are rated according to their prevalence and their potential impact, as well as the difficulty of the exploit. The total number of vulnerabilities found for each risk level is:
 
