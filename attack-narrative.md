@@ -1,6 +1,6 @@
 # Attack Narrative
 
-The scan consisted of a first stage of directory browsing (spidering) for a maximum number of {{ book.max_children }} children directories. The second stage was an active scan that attempted to execute the following attacks in the target web application:
+The scan consisted of a first stage of directory browsing (spidering){% if book.max_children > 0 %} for a maximum number of {{ book.max_children }} children directories{% endif %}. The second stage was an active scan that attempted to execute the following attacks in the target web application:
 - Buffer Overflow
 - CRLF Injection
 - Cross Site Scripting (Persisting and Reflected)
