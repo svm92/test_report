@@ -1,13 +1,14 @@
 ## Summary of Results
 
-The automated scan found a total of {{ book.n_of_vulnerabilities }} vulnerabilities. The following types of vulnerabilities were found:
+The automated scan found a total of {{ book.n_of_vulnerabilities }} distinct vulnerabilities. The following types of vulnerabilities were found:
 
-{% for elem in book.vulnerabilities %}
-- {{elem}}
+{% for n in range(book.vulnerabilities|length) %}
+####{{book.vulnerabilities[n]}}
+{{book.descriptions[n]}}
 {% endfor %}
 
 
-These vulnerabilities where found in the following URLs:
+These vulnerabilities were found in the following URLs:
 
 {% for elem in book.urls %}
 - {{elem}}
