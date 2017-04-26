@@ -1,6 +1,6 @@
 # Attack Narrative
 
-The scan consisted of a first stage of directory browsing (spidering){% if book.max_children > 0 %} for a maximum number of {{ book.max_children }} children directories{% endif %}. The second stage was an active scan that attempted to execute the following attacks in the target web application:
+The scan was automatically executed with the help of OWASP ZAP {{ book.zap_version }}. The scan consisted of a first stage of directory browsing (spidering){% if book.max_children > 0 %} for a maximum number of {{ book.max_children }} children directories{% endif %}. The second stage was an active scan that attempted to execute the following attacks in the target web application:
 
 |Attack|Description
 |:---:|:---:|

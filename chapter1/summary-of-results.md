@@ -6,10 +6,3 @@ The automated scan found a total of {{ book.n_of_vulnerabilities }} distinct vul
 ####{{book.vulnerabilities[n]}}
 {{book.descriptions[n]}}
 {% endfor %}
-
-
-These vulnerabilities were found in the following URLs:
-
-{% for elem in book.urls %}
-- {{elem}}
-{% endfor %}
